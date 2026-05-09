@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Allenamento Corpo Libero</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: #e63946;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: #222;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px;
+    }
+    .card {
+      background: #222;
+      padding: 20px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fitness Corpo Libero</h1>
+  <p>Allenati ovunque, senza attrezzi</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#workout">Allenamenti</a>
+  <a href="#esercizi">Esercizi</a>
+</nav>
+
+<section id="home">
+  <h2>Benvenuto</h2>
+  <p>Qui trovi allenamenti a corpo libero per migliorare forza, resistenza e forma fisica.</p>
+</section>
+
+<section id="workout">
+  <h2>Allenamento Base</h2>
+  <div class="card">
+    <p>Push-up: 3x10</p>
+    <p>Squat: 3x15</p>
+    <p>Plank: 3x30 sec</p>
+  </div>
+</section>
+
+<section id="esercizi">
+  <h2>Esercizi</h2>
+  <div class="card">
+    <h3>Push-up</h3>
+    <p>Ottimo per petto, spalle e tricipiti.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Fitness Corpo Libero</p>
+</footer>
+
+</body>
+</html>
